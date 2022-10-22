@@ -63,18 +63,5 @@ function validarFormulario(evento) {
     document.fvalida.submit();
 }
 
-/*
-var verificar = true;
-    var expRegNombre=/^[a-zA-ZÑñÁáÉéÍíÓóÚúÜü\s]+$/;
-    var fomulario = document.getElementById("fomulario-js");
-    var nombre = document.getElementById("nombre");
-    var apellido = document.getElementById("apellido");
-
-
-    if(nombre == null || nombre.length == 0 || /^\s+$/.test(nombre)){
-        alert("El campo nombre es requerido");
-        verificar=false;
-    }
-*/
 
 
