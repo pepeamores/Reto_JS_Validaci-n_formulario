@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Epic Games</title>
+    <link rel="stylesheet" href="css/sytle.css">
+    
+</head>
+<body>
+    <form name='formulario-js' onsubmit='return validar()'>
+        <img src="img/logoepic.png"  width="50" height="50"><BR><br><BR>
+        <h2>Formulario Epic Games</h2>
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname" class="field" placeholder="Escribe tu nombre completo" required autofocus><br>
+        <label for="apellido">Apellidos:</label><br>
+        <input type="text" id="apellido" name="apellido" class="field" placeholder="Escribe tu apellido" required><br><br>
+        <label for="correo">Correo:</label><br>
+        <input type="email" id="correo" name="correo" class="field" placeholder="Escribe tu email" required><br><br>
+        <label for="telefono">Telefono:</label><br>
+        <input type="text" id="telefono" name="telefono" class="field" placeholder="123456789" required><br><br>
+        <label for="dni">DNI:</label><br>
+        <input type="text" id="dni" name="dni" class="field" placeholder="12345678L" required><br><br>
+        <label for="iban">IBAN:</label><br>
+        <input type="text" id="iban" name="iban" class="field" placeholder="Escribe tu IBAN" required><br><br>
+        <label for="Swift">Swift:</label><br>
+        <input type="text" id="Swift" name="Swift" class="field" placeholder="Escribe Swift" required><br><br>
+        <label for="Nombre">Nombre de Usuario:</label><br>
+        <input type="text" id="Nombre" name="Nombre" class="field" placeholder="Escribe tu Nombre de Usuario" required><br><br>
+        <label for="Fecha">Fecha de Nacimiento:</label><br>
+        <input type="date" id="Fecha" name="Fecha" class="field" required><br><br>
+        <button type="submit" value="submit" id="btn-enviar">Enviar</button>
+      </form> 
+      <script src="js/myscript.js"></script>
+</body>
+</html>
