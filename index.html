@@ -9,29 +9,36 @@
     
 </head>
 <body>
-    <form name='formulario-js' onsubmit='return validar()'>
-        <img src="img/logoepic.png"  width="50" height="50"><BR><br><BR>
+    <header>
+       <img src="img/logoepic.png"  width="40" height="40">
+        
         <h2>Formulario Epic Games</h2>
+    </header>
+    <br>
+    <br>
+    <form action="index.html" id="formulario">
         <label for="fname">Nombre:</label><br>
-        <input type="text" id="fname" name="fname" class="field" placeholder="Escribe tu nombre completo" required autofocus><br>
+        <input type="text" id="nombre" name="nombre" class="field" placeholder="Escribe tu nombre completo"><br>
         <label for="apellido">Apellidos:</label><br>
-        <input type="text" id="apellido" name="apellido" class="field" placeholder="Escribe tu apellido" required><br><br>
+        <input type="text" id="apellido" name="apellido" class="field" placeholder="Escribe tu apellido" ><br><br>
         <label for="correo">Correo:</label><br>
-        <input type="email" id="correo" name="correo" class="field" placeholder="Escribe tu email" required><br><br>
+        <input type="text" id="correo" name="correo" class="field" placeholder="Escribe tu email" ><br><br>
         <label for="telefono">Telefono:</label><br>
-        <input type="text" id="telefono" name="telefono" class="field" placeholder="123456789" required><br><br>
+        <input type="text" id="telefono" name="telefono" class="field" placeholder="123456789" ><br><br>
         <label for="dni">DNI:</label><br>
-        <input type="text" id="dni" name="dni" class="field" placeholder="12345678L" required><br><br>
+        <input type="text" id="dni" name="dni" class="field" placeholder="12345678L" ><br><br>
         <label for="iban">IBAN:</label><br>
-        <input type="text" id="iban" name="iban" class="field" placeholder="Escribe tu IBAN" required><br><br>
+        <input type="text" id="iban" name="iban" class="field" placeholder="Escribe tu IBAN" ><br><br>
         <label for="Swift">Swift:</label><br>
-        <input type="text" id="Swift" name="Swift" class="field" placeholder="Escribe Swift" required><br><br>
-        <label for="Nombre">Nombre de Usuario:</label><br>
-        <input type="text" id="Nombre" name="Nombre" class="field" placeholder="Escribe tu Nombre de Usuario" required><br><br>
+        <input type="text" id="Swift" name="Swift" class="field" placeholder="Escribe Swift" ><br><br>
+        <label for="usuario">Nombre de Usuario:</label><br>
+        <input type="text" id="usuario" name="usuario" class="field" placeholder="Escribe tu Nombre de Usuario" ><br><br>
         <label for="Fecha">Fecha de Nacimiento:</label><br>
-        <input type="date" id="Fecha" name="Fecha" class="field" required><br><br>
-        <button type="submit" value="submit" id="btn-enviar">Enviar</button>
+        <input type="date" id="Fecha" name="Fecha" class="field" ><br><br>
+        <input type="submit" value="Entrar">
       </form> 
       <script src="js/myscript.js"></script>
+      
+      
 </body>
 </html>
