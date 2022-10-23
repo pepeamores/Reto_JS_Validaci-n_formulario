@@ -1,17 +1,18 @@
 body{
-    background-image: url("../img/fondo.png");
+    
+    background-image: url("../img/fondo1.png");
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
     margin: 0; padding: 0;
 }    
 header{
-    background-color: #666;
-    font-size: 10px;
-    color: white;
+    background-color: rgb(144, 191, 197);
+    font-size: 15px;
+    color: black;
     position: relative; 
     margin: 0; padding: 0;
-
+    text-align: center;
     overflow:hidden ;
 }
 
@@ -19,16 +20,24 @@ h2{
     padding-left: 70px;
 }
 form{
-    background-color: rgb(79, 79, 79);
+    background-color: rgb(144, 191, 197);
     border-radius: 3px;
-    color: rgb(255, 255, 255);
+    color: black;
+    padding: 7px;
+    /*margin: 0 auto;*/
+    width: 500px;
+
+}
+td{
+    width: 50px;
+    /*border-color: white;
+    border-width: 1px;
+    border: solid 1px #ccc ;*/
     padding: 10px;
-    margin: 0 auto;
-    width: 400px;
 
 }
 .field{
-    width: 370px;
+    width: 200px;
     background-color: rgb(165, 165, 165);
     border-color: white;
     border-width: 1px;
@@ -38,12 +47,4 @@ form{
 input{
     border: 0;
 
-}
-
-img{
-    position: absolute;
-    text-align: center;
-    padding: 20px;
-    padding-left: 10px;
-    padding-top: 0px;
 }

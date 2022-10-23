@@ -47,17 +47,28 @@ function validarFormulario(evento) {
         alert('Dni erroneo, formato no válido');
         return;
     }
+    var iban = document.getElementById('iban').value;
+    if( iban == null || iban.length == 0 || /^\s+$/.test(iban)) {
+      alert('Introduce el IBAN');
+      return;
+    }
+    var swift = document.getElementById('Swift').value;
+    if( swift == null || swift.length == 0 || /^\s+$/.test(swift)) {
+      alert('Introduce el Swift');
+      return;
+    }
     var usuario = document.getElementById('usuario').value;
     if( usuario == null || usuario.length == 0 || /^\s+$/.test(usuario)) {
       alert('Introduce tu nombre de usuario');
       return;
     }
-    var Fecha = document.getElementById('Fecha').value;
-    if( Fecha == null ) {
-      alert('Introduce tu Fecha de Nacimiento');
+    
+    var date_regex = /^([012][1-9]|3[01])(\/)(0[1-9]|1[012])\2(\d{4})$/;
+    var testDate =document.getElementById('Fecha').value;
+    if (!date_regex.exec(testDate)) {
+      alert('Introduce bien la Fecha de Nacimiento');
       return;
     }
-
     this.submit();
     alert("Muchas gracias por enviar el formulario");
     document.fvalida.submit();
